@@ -76,9 +76,9 @@ function keyPressed() {
           botao_1();
           } else if(bordax==x+165 && borday==y){
             botao_2();
-            } else if(bordax==x+165 && borday==y+55){
+            } else if(bordax==x && borday==y+55){
               botao_3();
-              } else if(bordax==x && borday==y+55){
+              } else if(bordax==x+165 && borday==y+55){
                 botao_4();
                 }
         }

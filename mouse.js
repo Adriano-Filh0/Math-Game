@@ -46,12 +46,12 @@ function mouseClicked() {
     } else if(tela==1){
         if(mouseX>=x && mouseX<=x+l && mouseY>=y && mouseY<=y+h){
           botao_1();
-          } else if(mouseX>=x && mouseX<=x+l && mouseY>=y+55 && mouseY<=y+55+h){
-              botao_2();
-            } else if(mouseX>=x+165 && mouseX<=x+165+l && mouseY>=y && mouseY<=y+h){
-                botao_3();
+          } else if(mouseX>=x+165 && mouseX<=x+165+l && mouseY>=y && mouseY<=y+h){
+            botao_2();
+            } else if(mouseX>=x && mouseX<=x+l && mouseY>=y+55 && mouseY<=y+55+h){
+              botao_3();
               } else if(mouseX>=x+165 && mouseX<=x+165+l && mouseY>=y+55 && mouseY<=y+55+h){
-                  botao_4();
+                botao_4();
                 }
       }
 

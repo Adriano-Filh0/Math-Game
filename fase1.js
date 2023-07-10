@@ -1,5 +1,4 @@
 function fase1 (){
-    image(botao_x, 40, 40, 50, 50);
     background(fundo1);
     textSize(30);
     
@@ -19,10 +18,10 @@ function fase1 (){
     textAlign(CENTER);
     text(a+" + "+b+" = ?",160,140);
     fill(0);
-    text(opcoes_ale[0],x+80,y+35);
-    text(opcoes_ale[1],x+80+165,y+35);
-    text(opcoes_ale[2],x+80+165,y+35+55);
-    text(opcoes_ale[3],x+80,y+35+55);
+    text(Math.floor(opcoes_ale[0]),x+80,y+35);
+    text(Math.floor(opcoes_ale[1]),x+80+165,y+35);
+    text(Math.floor(opcoes_ale[2]),x+80,y+35+55);
+    text(Math.floor(opcoes_ale[3]),x+80+165,y+35+55);
       
     botao_volta_menu();
     //borda

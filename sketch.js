@@ -25,11 +25,6 @@ let l;
 // variaveis do jogo.
 var a;
 var b;
-//variaveis vetores.
-var op_1=a+b;
-var op_2=a+b-1;
-var op_3=(a+b)*2;
-var op_4=(a+b)/2;
 //contador
 let i=1;
 
@@ -40,8 +35,8 @@ var opcoes_ale=[];
 */
 /*var opcoes=[1,a+b-1,(a+b)*2,(a+b)/2];
 var opcoes_ale=[];*/
-var opcoes=[op_1,op_2,op_3,op_4];
-var opcoes_ale=[];
+var opcoes_vetor;
+var opcoes_ale;
 
 
 function preload() {
@@ -64,7 +59,6 @@ function draw() {
     menu();
     } else if(tela==1){
         fase1();
-        opcoes();
       } else if(tela==2){
         instrucoes();
         } else if(tela==3){
