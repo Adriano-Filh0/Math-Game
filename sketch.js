@@ -47,8 +47,8 @@ function preload() {
 
   soundFormats('mp3');
   musica_fundo=
-  resposta_certa=loadSound("som de resposta certa.mp3");
-  resposta_errada=loadSound("som de resposta errada.mp3");
+  resposta_certa=loadSound("Som_resposta _certa.mp3");
+  resposta_errada=loadSound("Som_resposta _errada.mp3");
 }
 
 function setup() {
