@@ -14,6 +14,11 @@ let fundo1;
 let fundo2;
 let fundo3;
 
+//sons do jogo
+let musica_fundo;
+let resposta_certa;
+let resposta_errada;
+
 let  botao_x;
 //tela atual
 let tela = 0;
@@ -29,12 +34,6 @@ var b;
 let i=1;
 
 //vetores para aleatorização das opçoes
-/*
-var opcoes=[a+b,a+b-1,(a+b)*2,(a+b)/2];
-var opcoes_ale=[];
-*/
-/*var opcoes=[1,a+b-1,(a+b)*2,(a+b)/2];
-var opcoes_ale=[];*/
 var opcoes_vetor;
 var opcoes_ale;
 
@@ -44,8 +43,12 @@ function preload() {
   fundo1=loadImage("tela_fase1.png");
   fundo2=loadImage("tela_instruções.png");
   fundo3=loadImage("tela_creditos.png");
-
   botao_x=loadImage("X.png");
+
+  soundFormats('mp3');
+  musica_fundo=
+  resposta_certa=loadSound("som de resposta certa.mp3");
+  resposta_errada=loadSound("som de resposta errada.mp3");
 }
 
 function setup() {
