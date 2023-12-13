@@ -1,6 +1,6 @@
 function soma() {
-    a= Math.floor(Math.random()*(10));
-    b= Math.floor(Math.random()*(10));
+    a= Math.floor(Math.random()*(50));
+    b= Math.floor(Math.random()*(50));
 
     opcoes_vetor=[a+b,a+b-1,a*2+b,a+b*2];
     opcoes_ale=[];
