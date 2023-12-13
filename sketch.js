@@ -39,16 +39,16 @@ var opcoes_ale;
 
 
 function preload() {
-  fundo=loadImage("tela_menu.png");
-  fundo1=loadImage("tela_fase1.png");
-  fundo2=loadImage("tela_instruções.png");
-  fundo3=loadImage("tela_creditos.png");
-  botao_x=loadImage("X.png");
+  fundo=loadImage("image/tela_menu.png");
+  fundo1=loadImage("image/tela_fase1.png");
+  fundo2=loadImage("image/tela_instruções.png");
+  fundo3=loadImage("image/tela_creditos.png");
+  botao_x=loadImage("image/X.png");
 
   soundFormats('mp3');
   musica_fundo=
-  resposta_certa=loadSound("Som_resposta _certa.mp3");
-  resposta_errada=loadSound("Som_resposta _errada.mp3");
+  resposta_certa=loadSound("music/Som_resposta _certa.mp3");
+  resposta_errada=loadSound("music/Som_resposta _errada.mp3");
 }
 
 function setup() {
